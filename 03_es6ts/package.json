@@ -1,0 +1,23 @@
+{
+  "name": "03_es6ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "private": true,
+  "scripts": {
+    "build": "webpack",
+    "start": "http-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "http-server": "^0.10.0",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.2",
+    "webpack": "^3.6.0"
+  }
+}
