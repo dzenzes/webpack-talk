@@ -40,6 +40,16 @@ module.exports = {
           fallback: "style-loader",
           use: "css-loader"
         })
+      },
+      {
+        test: /\.html$/,
+        exclude: /(node_modules)/,
+        use: {
+          loader: "file-loader",
+          options: {
+            name: "[path][name].[ext]?[hash]"
+          }
+        }
       }
     ]
   },
